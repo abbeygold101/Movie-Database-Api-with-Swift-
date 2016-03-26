@@ -14,6 +14,10 @@
 		A7610F351C81D19700EEE02A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7610F331C81D19700EEE02A /* LaunchScreen.storyboard */; };
 		A7610F401C81D19700EEE02A /* smartAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7610F3F1C81D19700EEE02A /* smartAppTests.swift */; };
 		A7610F4B1C81D19700EEE02A /* smartAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7610F4A1C81D19700EEE02A /* smartAppUITests.swift */; };
+		A7610F5B1C82586100EEE02A /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7610F5A1C82586000EEE02A /* HomeModel.swift */; };
+		A7610F5D1C8258E700EEE02A /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7610F5C1C8258E700EEE02A /* MovieModel.swift */; };
+		A7610F5F1C82EC3B00EEE02A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7610F5E1C82EC3B00EEE02A /* DetailViewController.swift */; };
+		A79359FE1CA4C79800377A8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79359FD1CA4C79800377A8D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		A7610F461C81D19700EEE02A /* smartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7610F4A1C81D19700EEE02A /* smartAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartAppUITests.swift; sourceTree = "<group>"; };
 		A7610F4C1C81D19700EEE02A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7610F5A1C82586000EEE02A /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		A7610F5C1C8258E700EEE02A /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		A7610F5E1C82EC3B00EEE02A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A79359FD1CA4C79800377A8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79359FE1CA4C79800377A8D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +86,7 @@
 		A7610F1E1C81D19700EEE02A = {
 			isa = PBXGroup;
 			children = (
+				A79359FD1CA4C79800377A8D /* QuartzCore.framework */,
 				A7610F291C81D19700EEE02A /* smartApp */,
 				A7610F3E1C81D19700EEE02A /* smartAppTests */,
 				A7610F491C81D19700EEE02A /* smartAppUITests */,
@@ -103,6 +113,9 @@
 				A7610F311C81D19700EEE02A /* Assets.xcassets */,
 				A7610F331C81D19700EEE02A /* LaunchScreen.storyboard */,
 				A7610F361C81D19700EEE02A /* Info.plist */,
+				A7610F5A1C82586000EEE02A /* HomeModel.swift */,
+				A7610F5C1C8258E700EEE02A /* MovieModel.swift */,
+				A7610F5E1C82EC3B00EEE02A /* DetailViewController.swift */,
 			);
 			path = smartApp;
 			sourceTree = "<group>";
@@ -259,8 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7610F5D1C8258E700EEE02A /* MovieModel.swift in Sources */,
 				A7610F2D1C81D19700EEE02A /* ViewController.swift in Sources */,
+				A7610F5F1C82EC3B00EEE02A /* DetailViewController.swift in Sources */,
 				A7610F2B1C81D19700EEE02A /* AppDelegate.swift in Sources */,
+				A7610F5B1C82586100EEE02A /* HomeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +503,7 @@
 				A7610F511C81D19700EEE02A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7610F521C81D19700EEE02A /* Build configuration list for PBXNativeTarget "smartAppTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +512,7 @@
 				A7610F541C81D19700EEE02A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7610F551C81D19700EEE02A /* Build configuration list for PBXNativeTarget "smartAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +521,7 @@
 				A7610F571C81D19700EEE02A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
