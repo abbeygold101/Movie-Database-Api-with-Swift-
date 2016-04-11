@@ -18,6 +18,5 @@ No 3rd party library
 
 ![alt tag](https://raw.githubusercontent.com/abbeygold101/Movie-Database-Api-with-Swift-/master/movies.png)
 
-![alt tag](https://raw.githubusercontent.com/abbeygold101/Movie-Database-Api-with-Swift-/master/detail.png)
 
 
